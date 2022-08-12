@@ -19,7 +19,7 @@ export default function Usercard(props) {
       {/* main section */}
       <div className="d-flex align-items-center p-3">
         <img src={props.img} width="90px" class="rounded-circle me-4" />
-        <span className="text-center display-6 me-auto">{props.name}</span>
+        <span class="text-center display-6 me-auto">{props.name}</span>
         {chevronDown ? <IconChevronUp /> : <IconChevronDown />}
       </div>
       {chevronDown && (

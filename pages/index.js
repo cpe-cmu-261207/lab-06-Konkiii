@@ -46,8 +46,7 @@ export default function Home() {
 
       {data.map((element) => (
         <UserCard
-          key={element.login.uuid}
-          name={element.name.first + "" + element.name.last}
+          name={element.name.first + " " + element.name.last}
           img={element.picture.large}
           email={element.email}
           address={
